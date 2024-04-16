@@ -1,0 +1,26 @@
+// Home.js
+import React from 'react';
+
+// const imageUrl = "https://i.postimg.cc/nrrXYcm3/future.jpg";
+// const imageUrl1 =" https://i.postimg.cc/c4wLF0ds/pexels-samer-d-1212823.jpg"
+import car from "../images/future.jpg"
+// const car = "../images/future.jpg";
+import flower from "../images/flow.jpg"
+
+
+function Home() {
+  return (
+    <div>
+      <h2>Home Page</h2>
+      <p>Welcome to the Home Page!</p>
+      {/* <img src={car}></img> */}
+      {/* <img src={car} alt="Future Car" />  */}
+      {/* <img src={imageUrl} alt="Future Car" /> */}
+      {/* <img src={imageUrl1} alt="Future Car" height={400} width={1500}/> */}
+{/* <img src={car} className='cars'/> */}
+<img src={flower} className='flower'/>
+    </div>
+  );
+}
+
+export default Home;

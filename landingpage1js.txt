@@ -1,0 +1,16 @@
+import React from "react";
+import gar from "../images/home.jpeg"
+ function LandingOne(){
+    return(
+        <>
+        <h1>Welcome</h1>
+        <div style={{ flexDirection:"column"}} className="image-container">  
+          <img style={{height:"400px", width:"1300px"}} src={gar} className='flowers'/ >
+          <p className="texty">Make Beautiful Garden</p>
+
+      </div>
+        </>
+    )
+}
+
+export default LandingOne;

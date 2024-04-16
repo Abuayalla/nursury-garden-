@@ -1,0 +1,30 @@
+import { Route, Routes } from "react-router-dom";
+import Login from "./practice1/login";
+import Nav from "./nav";
+import Home from "./practice1/home";
+import LandingOne from "./practice1/landing _1";
+import LandingTwo from "./practice1/landing_2";
+import LandingThree from "./practice1/landing_3";
+
+
+
+function Router ()
+{
+    return(
+        <>
+        <Routes>
+            <Route path="/" element={<Nav/>}>
+                <Route index element={<LandingOne/>}/>
+                <Route path="landing-one" element={<LandingOne/>}/>
+                <Route path="landing-two" element={<LandingTwo/>}/>
+                <Route path="landing-three" element={<LandingThree/>}/> 
+                
+                <Route path="Home" element={<Home />} />
+            </Route>
+            <Route path="login" element={<Login />} />
+        </Routes>
+        </>
+    )
+}
+
+export default Router;

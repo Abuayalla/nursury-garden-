@@ -1,0 +1,26 @@
+import { Link, useNavigate } from "react-router-dom"
+import "./log.css"
+function Login(){
+    const navigate = useNavigate();
+    var box1={
+        marginTop:"25px",
+        width:"370px",
+        height:"30px"
+    }
+    function navigation (){
+        navigate('/')
+    }
+    return(
+        <div className="taskonemain">
+            <div className="taskone">
+                 <h1 style={{color:"black",fontFamily:"cursive"}}>login</h1>
+                 <h6 style={{color:"black",fontSize:"12px"}}>enter login password</h6>
+                 <input className="box1" style={box1} type="text" placeholder="username or mail"/><br/>
+                 <input className="box2" style={box1} type="password" placeholder="password"/><br/>
+                 <button onClick={navigation} className="but"> submit</button>
+            </div>
+
+        </div>
+    )
+}
+export default Login

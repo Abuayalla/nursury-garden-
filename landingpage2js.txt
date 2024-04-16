@@ -1,0 +1,58 @@
+ import React from "react";
+ import flower from "../images/flow.jpg"
+ import flowerse from "../images/butterflower.jpeg"
+ import flowerser from "../images/indoorplant.jpeg"
+ import flowersery from "../images/tulsi.jpeg"
+ import flowerserys from "../images/out.jpeg"
+ import straw from "../images/straw.jpeg"
+ import straws from "../images/trees.jpeg"
+
+//  const car = "https://i.postimg.cc/nrrXYcm3/future.jpg";
+ function LandingTwo(){
+    return(
+        <>
+        <h1 className="cate">Plants</h1>
+        <div style={{display:'flex', flexDirection:"row", textAlign:"center"}}>
+        <div style={{ flexDirection:"column"}} className="image-container">  
+            <img style={{height:"400px", width:"400px"}} src={flowersery} className='flowers'/ >
+            <button>ADD</button>
+            <p className="texts">Herbal plant</p>
+
+        </div>
+        <div style={{ flexDirection:"column"}} className="image-container">  
+            <img style={{height:"400px", width:"400px"}} src={flowerse} className='flowers'/>
+            <button>ADD</button>
+            <p className="texts">Flower Plant</p>
+        </div>
+        <div style={{ flexDirection:"column"}} className="image-container">  
+            <img style={{height:"400px", width:"400px"}} src={flowerser} className='flowers'/>
+            <button>ADD</button>
+            <p className="texts">Indoor Plant</p>
+        </div>
+        </div>
+
+        <div style={{display:'flex', flexDirection:"row", textAlign:"center"}}>
+        <div style={{ flexDirection:"column"}} className="image-container">  
+            <img style={{height:"400px", width:"400px"}} src={flowerserys} className='flowers'/ >
+            <button>ADD</button>
+            <p className="texts">Outdoor plant</p>
+
+        </div>
+        <div style={{ flexDirection:"column"}} className="image-container">  
+            <img style={{height:"400px", width:"400px"}} src={straw} className='flowers'/>
+            <button>ADD</button>
+            <p className="texts">Fruit Plant</p>
+        </div>
+        <div style={{ flexDirection:"column"}} className="image-container">  
+            <img style={{height:"400px", width:"400px"}} src={straws} className='flowers'/>
+            <button className="">ADD</button>
+            <p className="texts">Trees Plant</p>
+        </div>
+        </div>
+       
+     
+        </>
+    )
+}
+
+export default LandingTwo;

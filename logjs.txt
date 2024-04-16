@@ -1,0 +1,117 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+.taskone{
+    background-color:rgb(62, 238, 18);
+    justify-content: center;
+    top: 1px;
+    left: 1px;
+    height: 700px;
+    width: 100%;
+    position: absolute
+}
+.taskonemain{
+top: 1px;
+left: 1px;
+position: relative;
+align-items: center;
+
+}
+.but{
+    border-radius: 40px;
+    align-self: center;
+    top: 220px;
+    left: 650px;
+    position: absolute;
+}
+.box1{
+    border-radius: 40px;
+    align-self: center;
+    top: 100px;
+    left: 500px;
+    position: absolute;
+}
+
+.box2{
+    border-radius: 40px;
+    align-self: center;
+    top: 150px;
+    left: 500px;
+    position: absolute;
+}
+
+
+h1{
+    text-align:center;
+}
+h6{
+    text-align:center;
+}
+.cars{
+    height: 400px;
+    width: 1400px;
+}
+.flower{
+    height: 400px;
+    width: 1400px;
+}
+.flowers{
+    display: block;
+    margin-left: auto;
+    grid-row: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.image-container{
+    max-width: 100%;
+    height:auto;
+    margin: 0 5px;
+
+}
+.text{
+    margin-top: 500px;
+    text-align: left;
+}
+.image-container p{
+    margin-top: 10px;
+}
+.texts{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(103, 228, 103);
+    background: rgb(39, 119, 39);
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+}
+.textt{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(103, 228, 103);
+    background: rgb(56, 64, 175);
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+}
+.cate{
+    background-color: yellow;
+    color: brown;
+}
+.texty{
+    background-color: yellow;
+    color: brown;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 45px;
+    
+}
